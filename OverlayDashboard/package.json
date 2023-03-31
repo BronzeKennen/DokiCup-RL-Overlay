@@ -1,0 +1,26 @@
+{
+	"name": "overlaydashboard",
+	"version": "0.0.1",
+	"private": true,
+	"main": "./electron/socket.cjs",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"start": "electron ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "next",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.5.0",
+		"electron": "^23.2.0",
+		"svelte": "^3.54.0",
+		"vite": "^4.2.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"path": "^0.12.7",
+		"process": "^0.11.10",
+		"ws": "^8.13.0"
+	}
+}
