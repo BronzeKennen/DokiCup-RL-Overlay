@@ -10,7 +10,7 @@ Import from SvelteRLOverlay/SvelteRLOverlay/build/index.html as a browser source
 
 open cmd in the overlay folder
 
-> cd OverlayDashboard
+> cd OverlayDashboard  
 > npm start
  
  Note: node.js will be needed to run!
